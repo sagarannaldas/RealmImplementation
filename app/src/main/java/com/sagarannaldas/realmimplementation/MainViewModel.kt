@@ -37,7 +37,7 @@ class MainViewModel: ViewModel() {
         private set
 
     init {
-//        createSampleEntries()
+        createSampleEntries()
     }
 
     fun showCourseDetails(course: Course) {
